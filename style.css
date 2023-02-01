@@ -1,0 +1,49 @@
+body {
+	padding: 0 10vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.buttonCont {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.buttonCont button {
+	font-size: 20vh;
+	min-width: 10vw;
+}
+
+h1 {
+	font-size: 10vh;
+	margin: 0;
+}
+
+.text {
+	font-size: 6vh;
+}
+
+h1,
+.text {
+	text-align: center;
+}
+
+.upDisplayer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.disSub {
+	display: flex;
+	justify-content: space-between;
+	gap: 1vw;
+}
+
+button {
+	border: 5px solid;
+	background-color: #EBDC14;
+}
